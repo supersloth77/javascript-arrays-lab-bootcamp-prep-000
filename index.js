@@ -31,3 +31,7 @@ function prependKitten(addition) {
   var newKittens = [addition, ...kittens];
   return newKittens;
 }
+
+function removeLastKitten() {
+  var newKittens = kittens
+}
