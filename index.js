@@ -8,5 +8,6 @@ function destructivelyAppendKitten(addition) {
 }
 
 function destructivelyPrependKitten(addition) {
-  
+  kittens.shift(addition);
+  return kittens;
 }
