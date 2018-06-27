@@ -23,7 +23,6 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(addition) {
-  newKittens = kittens;
-  newKittens.push(addition);
+  newKittens = [...kittens, addition];
   return newKittens;
 }
